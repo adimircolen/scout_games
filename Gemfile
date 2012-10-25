@@ -32,3 +32,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+group :test, :development do
+  gem 'rspec-rails', '~> 2.0'
+  gem 'database_cleaner'
+end
+
